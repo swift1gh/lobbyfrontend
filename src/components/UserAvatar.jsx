@@ -9,7 +9,7 @@ const UserAvatar = ({ inMobileMenu }) => {
         inMobileMenu ? "flex" : "hidden"
       } md:flex justify-end cursor-pointer`}>
       <Stack>
-        <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+        <Avatar alt="Swift Prince" src="/static/images/avatar/1.jpg" />
       </Stack>
     </div>
   );
