@@ -29,6 +29,7 @@ const NavBar = () => {
           <div className="flex items-center gap-4">
             <SearchBox />
             <UserAvatar />
+
             <RxHamburgerMenu
               className="block md:hidden text-3xl cursor-pointer"
               onClick={() => setShowMobileMenu(true)}
@@ -102,7 +103,7 @@ const NavBar = () => {
             to="/profile"
             className="flex items-center gap-3"
             onClick={() => setShowMobileMenu(false)}>
-            <span>View My Profile</span>
+            <span>My Profile</span>
             <UserAvatar inMobileMenu={true} />
           </Link>
         </div>
