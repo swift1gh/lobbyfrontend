@@ -34,7 +34,9 @@ const UserAvatar = ({ inMobileMenu }) => {
           onClick={() => setShowProfileMenu(!showProfileMenu)}>
           My Profile
         </Link>
-        <Link to="/login" onClick={() => setShowProfileMenu(!showProfileMenu)}>
+        <Link
+          to="/auth/login"
+          onClick={() => setShowProfileMenu(!showProfileMenu)}>
           Logout
         </Link>
       </div>

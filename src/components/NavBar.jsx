@@ -93,7 +93,7 @@ const NavBar = () => {
 
         <div className="absolute bottom-0 w-full bg-gray-800 text-white py-4 flex justify-between items-center px-6">
           <Link
-            to="/login"
+            to="/auth/login"
             className="border-r pr-5"
             onClick={() => setShowMobileMenu(false)}>
             Logout
